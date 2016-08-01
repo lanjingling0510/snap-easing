@@ -1,9 +1,7 @@
-Snap SVG Easing Equations
+## Snap SVG Easing Equations
 
-A port of Robert Penner’s equations to percentage-based formulas for use in Snap SVG.
+    A port of Robert Penner’s equations to percentage-based formulas for use in Snap SVG.
 
-http://www.robertpenner.com/easing/
-http://snapsvg.io
 
 Available methods:
 - Quad ( mina.easeInQuad, mina.easeOutQuad, mina.easeInOutQuad )
@@ -17,7 +15,25 @@ Available methods:
 - Back ( mina.easeInBack, mina.easeOutBack, mina.easeInOutBack )
 - Bounce ( mina.easeInBounce, mina.easeOutBounce, mina.easeInOutBounce )
 
-Example use:
+## Example use:
+```javascript
   var canvas = Snap('#svg');
   var circle = canvas.circle( 0, 0, 100 ).attr({ fill: '#ff0000' });
   circle.animate({ cx: 100 }, 1000, mina.easeOutExpo);
+
+
+```
+
+## Easing function legend
+
+
+![image](./.github/image-1)
+
+## Reference
+- [http://www.robertpenner.com/easing/
+http://snapsvg.io
+](http://www.robertpenner.com/easing/
+http://snapsvg.io
+)
+
+- [http://snapsvg.io](http://snapsvg.io)
